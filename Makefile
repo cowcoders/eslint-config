@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := check
 
+start:
+	@echo "🏃‍♀️ Starting project"
+	@npm install
+
 test:
 	@echo "Testing..."
 	@npm run test
