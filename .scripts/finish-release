@@ -19,9 +19,7 @@ function change_version() {
 }
 
 function verify_master_branch() {
-  if [[ ${BRANCH} == 'master' ]]; then
-    echo "Master branch"
-  else
+  if [[ ${BRANCH} != 'master' ]]; then
     error "Invalid branch name ${BRANCH}"
   fi
 }
@@ -41,3 +39,4 @@ verify_master_branch
 change_version
 make check
 publish
+echo "📦✅"

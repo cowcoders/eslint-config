@@ -12,10 +12,13 @@ check: test build
 	@npm run lint
 	@echo "✅"
 
-# 📦 Releases
-patch: VERSION="patch"
-minor: VERSION="minor"
-major: VERSION="major"
+release_patch: release
 
-release patch minor major: check
-	@./.scripts/finish-release "$(VERSION)"
+release_minor: check
+	@.scripts/finish-release minor
+
+release_major: check
+	@.scripts/finish-release major
+
+release: check
+	@.scripts/finish-release patch
