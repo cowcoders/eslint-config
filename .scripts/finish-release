@@ -32,6 +32,7 @@ function verify_uncommitted_changes() {
 
 function publish() {
   npm publish --access public
+  git push && git push --follow-tags
 }
 
 verify_uncommitted_changes
