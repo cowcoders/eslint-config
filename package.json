@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint rules for Cowcoders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowcoders/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cowcoders/eslint-config/issues"
+  },
+  "homepage": "https://github.com/cowcoders/eslint-config#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "prettier": "^2.1.1"
+  }
+}
