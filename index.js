@@ -1,3 +1,5 @@
-const eslint = require('./eslintrc.js');
-
-module.exports = eslint;
+module.exports = {
+  extends: [
+    './extends/base.js'
+  ]
+};
