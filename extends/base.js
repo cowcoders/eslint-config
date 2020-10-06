@@ -20,6 +20,7 @@ module.exports = {
     ],
     'no-multi-spaces': 'error',
     'comma-dangle': 'error',
-    'no-var': 'error'
+    'no-var': 'error',
+    'no-extra-semi': 'error'
   }
 };
