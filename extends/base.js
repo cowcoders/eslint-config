@@ -21,6 +21,19 @@ module.exports = {
     'no-multi-spaces': 'error',
     'comma-dangle': 'error',
     'no-var': 'error',
-    'no-extra-semi': 'error'
+    'no-extra-semi': 'error',
+    'key-spacing': [
+      'error',
+      {
+        'beforeColon': false
+      }
+    ],
+    'no-spaced-func': 'error',
+    'space-infix-ops': [
+      'error',
+      {
+        'int32Hint': false
+      }
+    ]
   }
 };
