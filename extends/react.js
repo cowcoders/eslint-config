@@ -9,6 +9,7 @@ module.exports = {
       {
         'beforeSelfClosing': 'never'
       }
-    ]
+    ],
+    'jsx-quotes': 'error'
   }
 };
