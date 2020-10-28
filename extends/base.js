@@ -34,6 +34,13 @@ module.exports = {
       {
         'int32Hint': false
       }
+    ],
+    'quotes': [
+      'error',
+      'single',
+      {
+        'avoidEscape': true
+      }
     ]
   }
 };
