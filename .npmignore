@@ -1,0 +1,7 @@
+.github
+.idea
+.scripts
+node_modules
+Makefile
+.prettierrc
+README.md
