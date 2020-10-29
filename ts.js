@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "./index.js",
-    "./extends/ts.js"
+    './index.js',
+    './extends/ts.js'
   ]
 };
