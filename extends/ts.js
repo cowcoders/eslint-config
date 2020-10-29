@@ -1,10 +1,19 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   plugins: [
-    "@typescript-eslint"
+    '@typescript-eslint'
   ],
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: "module"
+    sourceType: 'module'
+  },
+  rules: {
+    '@typescript-eslint/type-annotation-spacing': [
+      'error',
+      {
+        'before': false,
+        'after': true
+      }
+    ]
   }
 };
