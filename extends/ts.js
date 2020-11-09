@@ -8,6 +8,10 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    '@typescript-eslint/type-annotation-spacing': 'error'
+    'no-unused-vars': 'off',
+    '@typescript-eslint/type-annotation-spacing': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      'error'
+    ]
   }
 };
