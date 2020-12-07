@@ -4,6 +4,10 @@ start:
 	@echo "🏃‍♀️ Starting project"
 	@npm install
 
+docs:
+	@doctoc README.md
+	@echo "📚 Documentation ready!"
+
 test:
 	@echo "Testing..."
 	@npm run test

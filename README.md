@@ -17,6 +17,16 @@
   - [Extra configs](#extra-configs)
     - [Typescript](#typescript)
     - [React](#react)
+    - [React-Native](#react-native)
+- [LICENSE](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Extra configs](#extra-configs)
+        - [Typescript](#typescript)
+        - [React](#react)
 - [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -66,6 +76,16 @@ ESLint config for React projects:
 ```javascript
 module.exports = {
   extends: '@cowcoders/eslint-config/react'
+}
+```
+
+#### React-Native
+
+ESLint config for React-Native projects:
+
+```javascript
+module.exports = {
+  extends: '@cowcoders/eslint-config/react-native'
 }
 ```
 
