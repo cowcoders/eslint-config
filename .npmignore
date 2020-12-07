@@ -5,3 +5,4 @@ node_modules
 Makefile
 .prettierrc
 README.md
+tests
