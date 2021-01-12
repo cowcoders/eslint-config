@@ -1,6 +1,6 @@
 {
   "name": "@cowcoders/eslint-config",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "ESLint rules for Cowcoders",
   "main": "index.js",
   "scripts": {
