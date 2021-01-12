@@ -12,6 +12,7 @@ module.exports = {
     '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error'
-    ]
+    ],
+    'object-curly-spacing': ['error', 'always']
   }
 };
