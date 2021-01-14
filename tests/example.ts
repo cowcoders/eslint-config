@@ -9,3 +9,4 @@ const asd = (foo: string, age: number): boolean => {
 console.log(obj);
 console.log(asd('asd', 45));
 console.log(sum(3, 4));
+sum(3, 8);

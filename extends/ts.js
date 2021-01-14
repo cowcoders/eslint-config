@@ -13,6 +13,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': [
       'error'
     ],
-    'object-curly-spacing': ['error', 'always']
+    'object-curly-spacing': ['error', 'always'],
+    'space-in-parens': ['error', 'never']
   }
 };
