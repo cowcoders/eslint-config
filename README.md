@@ -18,6 +18,7 @@
     - [Typescript](#typescript)
     - [React](#react)
     - [React-Native](#react-native)
+    - [Vue](#vue)
 - [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -86,6 +87,16 @@ ESLint config for React-Native projects:
 ```javascript
 module.exports = {
   extends: '@cowcoders/eslint-config/react-native'
+}
+```
+
+#### Vue
+
+ESLint config for VueJS projects:
+
+```javascript
+module.exports = {
+  extends: '@cowcoders/eslint-config/vue'
 }
 ```
 
