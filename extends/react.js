@@ -10,6 +10,7 @@ module.exports = {
         'beforeSelfClosing': 'never'
       }
     ],
-    'jsx-quotes': 'error'
+    'jsx-quotes': 'error',
+    'react/jsx-equals-spacing': ['error', 'never']
   }
 };

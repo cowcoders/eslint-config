@@ -14,6 +14,14 @@ module.exports = {
       'error'
     ],
     'object-curly-spacing': ['error', 'always'],
-    'space-in-parens': ['error', 'never']
+    'space-in-parens': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'always',
+      'named': 'never',
+      'asyncArrow': 'always'
+    }],
+    'space-infix-ops': ['error', { 'int32Hint': false }],
+    'array-bracket-spacing': ['error', 'never'],
+    'keyword-spacing': ['error']
   }
 };
