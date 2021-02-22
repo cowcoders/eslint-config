@@ -22,6 +22,10 @@ module.exports = {
     }],
     'space-infix-ops': ['error', { 'int32Hint': false }],
     'array-bracket-spacing': ['error', 'never'],
-    'keyword-spacing': ['error']
+    'keyword-spacing': ['error'],
+    'indent': ['error', 2, {
+      'SwitchCase': 1
+    }],
+    'curly': ['error', 'all']
   }
 };

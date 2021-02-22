@@ -12,8 +12,8 @@ console.log(sum(3, 4));
 sum(3, 8);
 
 export enum actions {
-  move= 'move',
-  remove= 'remove'
+  move = 'move',
+  remove = 'remove'
 }
 
 const a = 2 + 2;
@@ -39,6 +39,10 @@ console.log(test);
 console.log(testA);
 
 if (2) {
+  console.log('2');
+}
+
+if (3) {
   console.log('2');
 }
 
