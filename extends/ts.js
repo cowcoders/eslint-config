@@ -24,7 +24,10 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'keyword-spacing': ['error'],
     'indent': ['error', 2, {
-      'SwitchCase': 1
+      'SwitchCase': 1,
+      'ignoredNodes': [
+        'JSXAttribute'
+      ]
     }],
     'curly': ['error', 'all']
   }
