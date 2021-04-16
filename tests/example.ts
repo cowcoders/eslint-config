@@ -70,7 +70,5 @@ const check = async () => {
 };
 
 check()
-.then(() => {
-  console.log(1);
-})
-.catch(console.error);
+  .then(() => console.log(1))
+  .catch(console.error);
