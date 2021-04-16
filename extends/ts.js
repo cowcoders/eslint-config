@@ -27,7 +27,8 @@ module.exports = {
       'SwitchCase': 1,
       'ignoredNodes': [
         'JSXAttribute'
-      ]
+      ],
+      'MemberExpression': 1
     }],
     'curly': ['error', 'all']
   }

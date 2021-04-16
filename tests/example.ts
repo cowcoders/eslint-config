@@ -63,3 +63,14 @@ const state = [1, 2];
 
 const [foo, value] = state;
 console.log(foo, value);
+
+
+const check = async () => {
+  return 1;
+};
+
+check()
+.then(() => {
+  console.log(1);
+})
+.catch(console.error);
