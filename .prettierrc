@@ -1,7 +1,0 @@
-{
-  "singleQuote": true,
-  "endOfLine": "lf",
-  "trailingComma": "none",
-  "printWidth": 220,
-  "htmlWhitespaceSensitivity": "css"
-}
