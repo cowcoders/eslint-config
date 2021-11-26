@@ -14,7 +14,7 @@ module.exports = {
     'react/jsx-equals-spacing': ['error', 'never'],
     'react/jsx-indent-props': [
       'error',
-      'first'
+      4
     ]
   }
 };
