@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'react-app',
-    'plugin:jsx-a11y/recommended'
+    'react-app/jest'
   ],
   'rules': {
     'react/jsx-tag-spacing': [
