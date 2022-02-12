@@ -3,9 +3,7 @@ module.exports = {
     browser: true,
     node: true
   },
-  plugins: [
-    'no-only-tests'
-  ],
+  plugins: ['no-only-tests'],
   rules: {
     'array-bracket-spacing': ['error', 'never'],
     'comma-dangle': 'error',

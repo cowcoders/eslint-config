@@ -22,6 +22,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.11.0",
     "@typescript-eslint/parser": "5.11.0",
+    "confusing-browser-globals": "1.0.11",
     "eslint": "8.9.0",
     "eslint-config-react-app": "7.0.0",
     "eslint-plugin-flowtype": "8.0.3",
@@ -38,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": ">=4.28.0",
     "@typescript-eslint/parser": ">=4.28.0",
     "eslint": ">=7.29.0",
-    "eslint-config-next": "12.0.10"
+    "eslint-config-next": ">=12.0.10",
+    "confusing-browser-globals": ">=1.0.11"
   }
 }
