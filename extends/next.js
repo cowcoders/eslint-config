@@ -4,14 +4,10 @@ module.exports = {
     'plugin:react/recommended'
   ],
   'rules': {
-    'react/react-in-jsx-scope': 'off',
+    'jsx-a11y/anchor-is-valid': ['error', { 'components': ['Link'], 'specialLink': ['hrefLeft', 'hrefRight'], 'aspects': ['invalidHref', 'preferButton'] }],
+    'jsx-quotes': 'error',
+    'react/jsx-tag-spacing': ['error', { 'beforeSelfClosing': 'never' }],
     'react/prop-types': 'off',
-    'react/jsx-tag-spacing': [
-      'error',
-      {
-        'beforeSelfClosing': 'never'
-      }
-    ],
-    'jsx-quotes': 'error'
+    'react/react-in-jsx-scope': 'off'
   }
 };

@@ -4,17 +4,9 @@ module.exports = {
     'react-app/jest'
   ],
   'rules': {
-    'react/jsx-tag-spacing': [
-      'error',
-      {
-        'beforeSelfClosing': 'never'
-      }
-    ],
+    'react/jsx-tag-spacing': ['error', { 'beforeSelfClosing': 'never' }],
     'jsx-quotes': 'error',
     'react/jsx-equals-spacing': ['error', 'never'],
-    'react/jsx-indent-props': [
-      'error',
-      2
-    ]
+    'react/jsx-indent-props': ['error', 2]
   }
 };
