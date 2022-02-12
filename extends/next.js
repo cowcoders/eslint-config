@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:jsx-a11y/recommended',
+    'next/core-web-vitals',
     'plugin:react/recommended'
   ],
   'rules': {
