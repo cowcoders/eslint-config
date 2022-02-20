@@ -96,7 +96,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
     'react/jsx-equals-spacing': ['error', 'never'],
-    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-indent-props': ['error', 'first'],
     'react/jsx-no-comment-textnodes': 'warn',
     'react/jsx-no-duplicate-props': 'warn',
     'react/jsx-no-target-blank': 'warn',
