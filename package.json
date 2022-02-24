@@ -2,23 +2,27 @@
   "name": "@cowcoders/eslint-config",
   "version": "1.5.4",
   "description": "ESLint rules for Cowcoders",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Tests here!\"",
-    "build": "echo \"Build here!\"",
-    "lint": "eslint --max-warnings 0 . --ext .js,.ts,.tsx"
+  "keywords": [],
+  "homepage": "https://github.com/cowcoders/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/cowcoders/eslint-config/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cowcoders/eslint-config.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cowcoders/eslint-config/issues"
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Build here!\"",
+    "lint": "eslint --max-warnings 0 . --ext .js,.ts,.tsx",
+    "test": "echo \"Tests here!\""
   },
-  "homepage": "https://github.com/cowcoders/eslint-config#readme",
+  "dependencies": {
+    "eslint-plugin-no-only-tests": "2.6.0",
+    "eslint-plugin-react-hooks": "4.3.0"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.12.0",
     "@typescript-eslint/parser": "5.12.0",
@@ -31,15 +35,13 @@
     "react": "17.0.2",
     "typescript": "4.5.5"
   },
-  "dependencies": {
-    "eslint-plugin-no-only-tests": "2.6.0",
-    "eslint-plugin-react-hooks": "4.3.0"
-  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=4.28.0",
     "@typescript-eslint/parser": ">=4.28.0",
+    "confusing-browser-globals": ">=1.0.11",
     "eslint": ">=7.29.0",
-    "eslint-config-next": ">=12.0.10",
-    "confusing-browser-globals": ">=1.0.11"
+    "eslint-config-next": ">=12.1.0",
+    "eslint-plugin-jest": ">=26.1.1",
+    "eslint-plugin-testing-library": ">=5.0.5"
   }
 }
