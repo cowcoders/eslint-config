@@ -6,7 +6,6 @@ module.exports = {
       version: 'detect'
     }
   },
-  plugins: ['react', 'import', 'react-hooks'],
   rules: {
     // Other rules
     // http://eslint.org/docs/rules/

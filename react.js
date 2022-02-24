@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['react', 'import', 'react-hooks'],
   extends: [
     './index.js',
     './extends/ts.js',

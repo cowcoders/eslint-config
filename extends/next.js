@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'next/core-web-vitals',
-    'plugin:react/recommended'
+    'next/core-web-vitals'
   ],
   'rules': {
     'jsx-a11y/anchor-is-valid': ['error', { 'components': ['Link'], 'specialLink': ['hrefLeft', 'hrefRight'], 'aspects': ['invalidHref', 'preferButton'] }],
