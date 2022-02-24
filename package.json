@@ -1,6 +1,6 @@
 {
   "name": "@cowcoders/eslint-config",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "ESLint rules for Cowcoders",
   "keywords": [],
   "homepage": "https://github.com/cowcoders/eslint-config#readme",
