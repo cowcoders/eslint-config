@@ -20,8 +20,8 @@ const a = 2 + 2;
 console.log(a);
 
 function test() {
-  return async (resolve) => {
-    return await resolve();
+  return (resolve) => {
+    return resolve();
   };
 }
 
@@ -32,7 +32,9 @@ async function testA() {
 }
 
 async function boo() {
-  return Math.random();
+  const result = await testA();
+  console.log(result);
+  return result;
 }
 
 console.log(test);
@@ -66,6 +68,7 @@ console.log(foo, value);
 
 
 const check = async () => {
+  await testA();
   return 1;
 };
 
