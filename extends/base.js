@@ -23,6 +23,8 @@ module.exports = {
     'semi': ['error', 'always'],
     'space-before-function-paren': ['error', { 'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }],
     'space-in-parens': ['error', 'never'],
-    'space-infix-ops': ['error', { 'int32Hint': false }]
+    'space-infix-ops': ['error', { 'int32Hint': false }],
+    'require-await': 'error',
+    'no-return-await': 'error'
   }
 };

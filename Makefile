@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := check
 
+init:
+	@echo "Initialising the project"
+	@npm ci
+
 start:
 	@echo "🏃‍♀️ Starting project"
 	@npm install
